@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class AppColors {
-  static final primary = Color(0xFF820ad1);
+  //static final primary = Color(0xFF820ad1);
+  static final primary = Color(0xFFFFA402);
   static final grey = Color(0xFF585666);
   static final delete = Color(0xFFE83F5B);
   static final heading = Color(0xFF585666);
