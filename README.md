@@ -2,7 +2,7 @@ Projeto:
 Aplicação desenvolvida na NLW6 na trilha de Flutter
 
 Tecnologias:
-Dart
+Dart,
 Flutter
 
 Recursos:
@@ -13,6 +13,6 @@ Recursos:
 -Tela de Meu extrato
 
 Rodar comandos:
-git clone (clonar repositório)
-flutter pub get (baixar dependências)
+git clone (clonar repositório),
+flutter pub get (baixar dependências),
 flutter run (rodar app)
