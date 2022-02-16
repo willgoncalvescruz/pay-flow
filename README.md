@@ -13,7 +13,8 @@
  <a href="#Experiencia">Experiencia</a> •
  <a href="#Features">Features</a> •
  <a href="#Rodar">Rodar</a> • 
- <a href="#Telas">Telas</a> •  
+ <a href="#Telas">Telas</a> •
+ <a href="#Materiais Complementares">Materiais Complementares</a> •  
 </p>
 
 ## Descrição
@@ -50,9 +51,8 @@ Segue abaixo mais detalhes de como tudo isso foi explorado.
   <img alt="Digitar Código" title="#Carrinho" src="./assets/images/digitarcodigo1.png" width="200"/>
 </h1>
 
-<p align="center">
-  <img alt="PayFlow" src=".github/payflow-logo.png" width="200px">
-</p>
+### Materiais Complementares
+<h2 align="center">Layout 📋</h2>
 
    <p align="center">
       O Layout foi desenvolvido por <a href="https://instagram.com/tiagoluchtenberg">Tiago Luchtenberg</a>, e você pode acessá-lo no Figma:
