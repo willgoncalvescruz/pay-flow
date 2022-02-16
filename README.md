@@ -23,7 +23,7 @@
  </p>
 
 ## Experiencia
-Com este projeto pude conhecer um caminhão de ferramentas bastante utilizadas nas implementações do Flutter, aprendi mais sobre uma estrutura de projeto organizado e também como realizar o acesso ao BackEnd construido em "shelf" para API do "GerenciaNet.
+Achei muito interessante utilizar diversas ferramentas adicionais nas implementações do Flutter, aprendi mais sobre o uso da navegação por rotas nativa e configurações do Firebase.
 Segue abaixo mais detalhes de como tudo isso foi explorado.
 ### Features
 - [x] Acesso para novo usuário via Login com GoogleSignIn
