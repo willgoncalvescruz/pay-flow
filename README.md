@@ -14,7 +14,7 @@
  <a href="#Features">Features</a> •
  <a href="#Rodar">Rodar</a> • 
  <a href="#Telas">Telas</a> •
- <a href="#Materiais Complementares">Materiais Complementares</a> •  
+ <a href="#Referencias">Referências</a> •  
 </p>
 
 ## Descrição
@@ -51,7 +51,7 @@ Segue abaixo mais detalhes de como tudo isso foi explorado.
   <img alt="Digitar Código" title="#Carrinho" src="./assets/images/digitarcodigo1.png" width="200"/>
 </h1>
 
-### Materiais Complementares
+### Referencias
 <h2 align="center">Layout 📋</h2>
 
    <p align="center">
