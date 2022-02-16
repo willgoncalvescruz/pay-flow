@@ -18,7 +18,7 @@
 
 ## Descrição
 <p align="center">O PayFlow se trata de um app mobile feito em Flutter 💙 para Gerenciamento de Boletos, contendo recursos como o uso de câmera e galeria, Machine Leaning com MLKit, Firebase Core e SignIn, Animações e Estilizações Personalizadas, entre vários outros pontos, como o uso do SharedPreferences. =>
-<a href="http://academiadoflutter.com.br//">Rodrigo Rahman</a>
+<a href="https://rocketseat.com.br/">RocketSeat</a>
  </p>
 
 ## Experiencia
