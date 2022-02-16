@@ -1,7 +1,11 @@
+// ignore_for_file: avoid_print
+
 import 'package:flutter/material.dart';
+
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:payflow/shared/auth/auth_controller.dart';
-import 'package:payflow/shared/models/user_model.dart';
+
+import '../../shared/auth/auth_controller.dart';
+import '../../shared/models/user_model.dart';
 
 class LoginController {
   final authController = AuthController();

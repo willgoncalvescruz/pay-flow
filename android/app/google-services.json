@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "539713727096-pb4mkpcnrn0jun7nfd5ro87vjk3l2578.apps.googleusercontent.com",
+          "client_id": "539713727096-nes0tpqb07ccmncutt4e9dr12a4jlqps.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.example.payflow",
-            "certificate_hash": "a47cf62c96a6fd1481bbb359e48dfa0d2bfd0427"
+            "certificate_hash": "ef14a8125f2c71e544fec40e337c63a5974e5b17"
           }
         },
         {
