@@ -23,7 +23,7 @@
  </p>
 
 ## Experiencia
-Achei muito interessante utilizar diversas ferramentas adicionais nas implementações do Flutter, aprendi mais sobre o uso da navegação por rotas nativa e configurações do Firebase.
+Achei muito interessante utilizar diversas ferramentas adicionais/bibliotecas nas implementações do Flutter, aprendi mais sobre o uso da navegação por rotas nativas, uso do setstate, um pouco de animações e configurações do Firebase.
 Segue abaixo mais detalhes de como tudo isso foi explorado.
 ### Features
 - [x] Acesso para novo usuário via Login com GoogleSignIn
