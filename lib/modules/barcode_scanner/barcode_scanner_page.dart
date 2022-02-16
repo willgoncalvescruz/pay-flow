@@ -72,14 +72,16 @@ class _BarcodeScannerPageState extends State<BarcodeScannerPage> {
               body: Column(
                 children: [
                   Expanded(
-                    child: Container(color: Colors.black.withOpacity(0.8)),
+                    child: Container(
+                        color: Colors.white30 /* .withOpacity(0.8) */),
                   ),
                   Expanded(
                     flex: 2,
                     child: Container(color: Colors.transparent),
                   ),
                   Expanded(
-                    child: Container(color: Colors.black.withOpacity(0.8)),
+                    child: Container(
+                        color: Colors.white30 /* .withOpacity(0.8) */),
                   )
                 ],
               ),
