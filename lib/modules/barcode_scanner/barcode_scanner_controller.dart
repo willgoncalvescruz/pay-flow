@@ -21,7 +21,8 @@ class BarcodeScannerController {
     try {
       final response = await availableCameras();
       final camera = response.firstWhere(
-          (element) => element.lensDirection == CameraLensDirection.back);
+        (element) => element.lensDirection == CameraLensDirection.back,
+      );
       cameraController =
           CameraController(camera, ResolutionPreset.max, enableAudio: false);
       await cameraController!.initialize();
@@ -60,6 +61,7 @@ class BarcodeScannerController {
   void scanWithImagePicker() async {
     //getImage foi substituido pelo pickImage
     final response = await ImagePicker().pickImage(source: ImageSource.gallery);
+    //final response = await ImagePicker().getImage(source: ImageSource.gallery);
     final inputImage = InputImage.fromFilePath(response!.path);
     scannerBarCode(inputImage);
   }

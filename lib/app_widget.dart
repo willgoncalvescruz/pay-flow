@@ -29,7 +29,7 @@ class AppWidget extends StatelessWidget {
       title: 'Pay Flow',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primarySwatch: Colors.orange,
+        primarySwatch: Colors.deepPurple,
         primaryColor: AppColors.primary,
       ),
       initialRoute: '/splash',

@@ -27,7 +27,7 @@ class AuthController {
     return;
   }
 
-  Future<void> currentUSer(BuildContext context) async {
+  Future<void> currentUser(BuildContext context) async {
     final instance = await SharedPreferences.getInstance();
     await Future.delayed(const Duration(seconds: 3));
 

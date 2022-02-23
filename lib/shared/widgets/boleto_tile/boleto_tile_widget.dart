@@ -12,7 +12,7 @@ class BoletoTileWidget extends StatelessWidget {
     return AnimatedCard(
       direction: AnimatedCardDirection.left,
       child: Padding(
-        padding: const EdgeInsets.only(bottom: 16),
+        padding: const EdgeInsets.only(bottom: 10),
         child: ListTile(
           contentPadding: EdgeInsets.zero,
           title: Text(data.name!, style: TextStyles.titleListTile),

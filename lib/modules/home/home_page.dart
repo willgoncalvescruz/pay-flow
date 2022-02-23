@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
           height: 152,
           color: AppColors.primary,
           child: Padding(
-            padding: const EdgeInsets.only(top: 24),
+            padding: const EdgeInsets.only(top: 24, left: 10, right: 10),
             child: Center(
               child: ListTile(
                 title: Text.rich(

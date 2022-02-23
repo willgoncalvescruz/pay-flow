@@ -50,7 +50,7 @@ class _MyBoletosPageState extends State<MyBoletosPage> {
           const SizedBox(height: 10),
           Padding(
             padding: const EdgeInsets.symmetric(
-              horizontal: 24,
+              horizontal: 25,
             ),
             child: Row(
               children: [
@@ -59,11 +59,11 @@ class _MyBoletosPageState extends State<MyBoletosPage> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24),
+            padding: const EdgeInsets.symmetric(horizontal: 25),
             child: Divider(color: AppColors.stroke),
           ),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24),
+            padding: const EdgeInsets.symmetric(horizontal: 25),
             child: BoletoListWidget(controller: controller),
           )
         ],
