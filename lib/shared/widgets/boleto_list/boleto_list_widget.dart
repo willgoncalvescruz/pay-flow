@@ -10,7 +10,7 @@ class BoletoListWidget extends StatefulWidget {
       : super(key: key);
 
   @override
-  _BoletoListWidgetState createState() => _BoletoListWidgetState();
+  State<BoletoListWidget> createState() => _BoletoListWidgetState();
 }
 
 class _BoletoListWidgetState extends State<BoletoListWidget> {

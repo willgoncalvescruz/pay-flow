@@ -10,13 +10,8 @@ class AuthController {
   void setUser(BuildContext context, UserModel? user) {
     if (user != null) {
       saveUser(user);
-      _user = user;
-      // ignore: avoid_print
-      print('$user - #### RETORNOU JÁ CONTEM USUARIO LOGADO ####');
       Navigator.pushReplacementNamed(context, "/home", arguments: user);
     } else {
-      // ignore: avoid_print
-      print('$user - #### RETORNOU PARA LOGIN SEM USUARIO LOGADO ####');
       Navigator.pushReplacementNamed(context, "/login");
     }
   }
@@ -30,17 +25,12 @@ class AuthController {
   Future<void> currentUser(BuildContext context) async {
     final instance = await SharedPreferences.getInstance();
     await Future.delayed(const Duration(seconds: 3));
-
     if (instance.containsKey("user")) {
       final json = instance.get("user") as String;
       setUser(context, UserModel.fromJson(json));
-      // ignore: avoid_print
-      print('$json - #### RETORNOU NOME E FOTO NO JSON ####');
       return;
     } else {
       setUser(context, null);
-      // ignore: avoid_print
-      print('$user - #### RETORNOU NULL NOME E FOTO ####');
     }
   }
 }

@@ -17,17 +17,18 @@ class SocialLoginButton extends StatelessWidget {
         decoration: BoxDecoration(
           color: AppColors.shape,
           borderRadius: BorderRadius.circular(5),
-          border: Border.fromBorderSide(BorderSide(color: AppColors.stroke)),
+          border:
+              const Border.fromBorderSide(BorderSide(color: AppColors.stroke)),
         ),
         child: Row(
           children: [
             Container(
               height: 56,
-              decoration: BoxDecoration(
+              decoration: const BoxDecoration(
                 border: Border(right: BorderSide(color: AppColors.stroke)),
               ),
               child: Padding(
-                padding: const EdgeInsets.only(left: 2, right: 2),
+                padding: const EdgeInsets.only(left: 5, right: 5),
                 child: Image.asset(AppImages.google),
               ),
             ),

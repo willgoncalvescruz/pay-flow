@@ -9,14 +9,14 @@ import '../../shared/widgets/boleto_list/boleto_list_controller.dart';
 import '../../shared/widgets/boleto_list/boleto_list_widget.dart';
 import '../../shared/widgets/boleto_info/boleto_info_widget.dart';
 
-class MyBoletosPage extends StatefulWidget {
-  const MyBoletosPage({Key? key}) : super(key: key);
+class MeusBoletosPage extends StatefulWidget {
+  const MeusBoletosPage({Key? key}) : super(key: key);
 
   @override
-  _MyBoletosPageState createState() => _MyBoletosPageState();
+  State<MeusBoletosPage> createState() => _MeusBoletosPageState();
 }
 
-class _MyBoletosPageState extends State<MyBoletosPage> {
+class _MeusBoletosPageState extends State<MeusBoletosPage> {
   final controller = BoletoListController();
   @override
   Widget build(BuildContext context) {
@@ -58,8 +58,8 @@ class _MyBoletosPageState extends State<MyBoletosPage> {
               ],
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 25),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 25),
             child: Divider(color: AppColors.stroke),
           ),
           Padding(

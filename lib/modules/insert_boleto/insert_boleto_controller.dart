@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import '../../shared/models/boleto_model.dart';
+import 'package:payflow/shared/models/boleto_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class InsertBoletoController {

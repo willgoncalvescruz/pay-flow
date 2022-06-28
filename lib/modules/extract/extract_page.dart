@@ -9,7 +9,7 @@ class ExtractPage extends StatefulWidget {
   const ExtractPage({Key? key}) : super(key: key);
 
   @override
-  _ExtractPageState createState() => _ExtractPageState();
+  State<ExtractPage> createState() => _ExtractPageState();
 }
 
 class _ExtractPageState extends State<ExtractPage> {
@@ -24,12 +24,12 @@ class _ExtractPageState extends State<ExtractPage> {
             padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 24),
             child: Row(
               children: [
-                Text('Meus Boletos', style: TextStyles.titleBoldHeading),
+                Text('Meus Extratos', style: TextStyles.titleBoldHeading),
               ],
             ),
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 24),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 24),
             child: Divider(color: AppColors.stroke),
           ),
           Padding(

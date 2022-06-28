@@ -108,31 +108,31 @@ class TextStyles {
   );
 
   static final captionShape = GoogleFonts.inter(
-    fontSize: 13,
+    fontSize: 14,
     fontWeight: FontWeight.w400,
     color: AppColors.shape,
   );
 
   static final captionBody = GoogleFonts.inter(
-    fontSize: 13,
+    fontSize: 14,
     fontWeight: FontWeight.w400,
     color: AppColors.body,
   );
 
   static final captionBoldBackground = GoogleFonts.inter(
-    fontSize: 13,
+    fontSize: 14,
     fontWeight: FontWeight.w600,
     color: AppColors.background,
   );
 
   static final captionBoldShape = GoogleFonts.inter(
-    fontSize: 13,
+    fontSize: 14,
     fontWeight: FontWeight.w600,
     color: AppColors.shape,
   );
 
   static final captionBoldBody = GoogleFonts.inter(
-    fontSize: 13,
+    fontSize: 14,
     fontWeight: FontWeight.w600,
     color: AppColors.body,
   );
